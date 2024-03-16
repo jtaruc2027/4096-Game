@@ -1,0 +1,63 @@
+body {
+    background-color: #212129;
+    font-family: "Inconsolata", monospace;
+    color: #f2e0f4;
+    background-image: url('media/bg.jpg');
+}
+
+button {
+    font-family: "Inconsolata", monospace;
+
+}
+
+ul {
+    margin-top: 10px;
+}
+
+.li1 {
+    background-color: #3d3e51;
+    border-radius: 14px 0px 0px 14px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.li2 {
+    background-color: #3d3e51;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.li3 {
+    background-color: #3d3e51;
+    border-radius: 0px 14px 14px 0px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.container {
+    margin: 50px auto;
+    text-align: center;
+}
+
+#score, #timer {
+    margin-bottom: 20px;
+}
+
+
+.tile {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    line-height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}

@@ -1,0 +1,55 @@
+body {
+    background-color: #212129;
+    font-family: "Inconsolata", monospace;
+    background-image: url('media/bg.jpg');
+    background-position: center;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+.li1 {
+    background-color: #3d3e51;
+    border-radius: 14px 0px 0px 14px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.li2 {
+    background-color: #3d3e51;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.li3 {
+    background-color: #3d3e51;
+    border-radius: 0px 14px 14px 0px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+h3 {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s ease-in;
+}
+
+h3:hover {
+    border-bottom: 1px solid;
+}
+
+img:hover {
+    transform: scale(1.03);
+    transition: transform 0.6s;
+    cursor: pointer;
+}
+
+.text-box {
+    background-color: black;
+    border-radius: 20px;
+}
